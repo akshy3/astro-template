@@ -5,8 +5,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://akshy3.github.io",
-  base: "astro-template",
+  site: "https://akshy3.github.io/astro-template",
+  base: "",
   integrations: [
     tailwind(),
     sitemap({
