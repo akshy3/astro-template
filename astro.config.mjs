@@ -5,7 +5,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-portfolio-uzair.vercel.app",
+  site: "https://akshy3.github.io",
+  base: "astro-template",
   integrations: [
     tailwind(),
     sitemap({
